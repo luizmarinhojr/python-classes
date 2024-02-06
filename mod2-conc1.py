@@ -17,6 +17,10 @@ class Empregado:
 
     def salarioTotal(self):
         return self.salarioAgregado.salarioAnual()
+    
+
+class Empresa:
+    pass
 
 
 salario = Salario(10000, 700)
